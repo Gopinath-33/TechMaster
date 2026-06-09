@@ -1,0 +1,222 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+  font-family: "Gabarito", sans-serif;
+  
+}
+.navbar{
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: solid black 1px;
+      gap: 10px;
+   align-items: center;
+}
+.navbar__s1__title{
+    color: #059669;
+  
+}
+.navbar__s2{
+    padding: 10px;
+    border: solid black 1px;
+    border-radius: 30px;
+    width: 60%;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+
+}
+.navbar__s2 input{
+    border: none;
+    width: 100%;
+    font-size: 16px;
+
+}
+.navbar__s2 input:focus{
+    outline: none;
+}
+.navbar__s3{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+.navbar__s2,.navbar__s3:hover{
+    cursor: pointer;
+}
+.flash-sale{
+    background: linear-gradient(90deg,#059669,#047857);
+    color: white;
+    padding: 12px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.sale-image video{
+    width: 100%;
+    max-width: 1200px;
+    border-radius: 20px;
+    object-fit: cover;
+    margin-top: 10px;
+}
+.recommended{
+    padding:10px ;
+}
+.recommended__container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.course-card{
+    width: 250px;
+     border: 1px solid #ddd;
+        border-radius: 10px;
+        overflow: hidden;
+        padding: 10px;
+        transition: 0.3s;
+        background-color: white;
+        margin-top: 10px;
+}
+.course-card:hover{
+        transform: translateY(-5px);
+        box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+    }
+.course-card img{
+    width: 100%;
+    height: 50%;
+    border-radius: 5px;
+}
+.topics{
+    padding: 10px;
+}
+.topics__container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 10px;
+}
+.topics__container p{
+    border: solid gray 2px;
+    padding: 10px;
+    flex-grow: 1;
+    flex-basis: 25%;
+}
+.popular{
+    padding: 10px;
+}
+.popular__container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.popular-topics{
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.popular-topics h1{
+    margin-bottom: 20px;
+    color: #111827;
+}
+
+.topics-list{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.topic{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 12px 25px;
+    background: white;
+    border: 1px solid #d1d5db;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: 0.3s;
+    font-weight: 500;
+}
+
+.topic i{
+    color: #059669;
+    font-size: 18px;
+}
+
+.topic:hover{
+    background: #059669;
+    color: white;
+    transform: translateY(-3px);
+    box-shadow: 0 5px 15px rgba(5,150,105,0.3);
+}
+
+.topic:hover i{
+    color: white;
+}
+.footer{
+    padding: 30px;
+    background-color: black;
+    color: white;
+}
+.footer__one{
+    display: flex;
+    gap: 10px;
+}
+.footer__one p{
+    margin: 20px;
+}
+.footer__two{
+    margin: 20px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+    .enroll-btn{
+        width: 100%;
+        padding: 10px;
+        margin-top: 12px;
+        background-color: #059669;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 15px;
+        font-weight: bold;
+    }
+
+    .enroll-btn:hover{
+        background-color: #047857;
+    }
+.stats{
+    margin: 30px 20px;
+    padding: 25px;
+    background: #f8fafc;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    box-shadow: 0 4px 10px rgba(0,0,0,.08);
+}
+
+.stat-item{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.stat-item i{
+    font-size: 35px;
+    color: #14B8A6;
+}
+
+.stat-item h2{
+    color: #14B8A6;
+    margin-bottom: 5px;
+}
