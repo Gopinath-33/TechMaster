@@ -37,7 +37,6 @@ An online learning platform built with HTML, CSS, and JavaScript — inspired by
 
 - **HTML** — Structure and content
 - **CSS** — Styling and responsive layout
-- **JavaScript** — Interactivity
 - **GitHub Pages** — Deployment
 
 ---
